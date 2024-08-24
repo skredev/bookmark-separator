@@ -64,14 +64,14 @@ SOFTWARE.
     <meta property="og:url" content="https://separator.skre.dev">
     <meta property="og:title" content="SKre.dev">
     <meta property="og:description" content="Easy-to-use browser bookmark separator">
-    <meta property="og:image" content="https://separator.skre.dev/content/meta-tags.png">
+    <meta property="og:image" content="https://separator.skre.dev/assets/images/meta-tags.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://separator.skre.dev">
     <meta property="twitter:title" content="SKre.dev">
     <meta property="twitter:description" content="Easy-to-use browser bookmark separator">
-    <meta property="twitter:image" content="https://separator.skre.dev/content/meta-tags.png">
+    <meta property="twitter:image" content="https://separator.skre.dev/assets/images/meta-tags.png">
 </head>
 <body class="sm:container mx-auto w-[85vw] h-auto">
     <div class="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
