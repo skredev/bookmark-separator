@@ -24,27 +24,14 @@ SOFTWARE.
 
 <!DOCTYPE html>
 
-<?php
-
-?>
-
 <html lang="en" class="bg-zinc-950">
-<head>
+<head id="head-el">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark Separator</title>
-    <?php
-        if(isset($_GET['horizontal']) || @$_GET['t'] == 'horizontal'){
-            echo '<link rel="icon" href="./assets/images/horizontal.svg" sizes="any" type="image/svg+xml">';
-        }else if(isset($_GET['vertical']) || @$_GET['t'] == 'vertical'){
-            echo '<link rel="icon" href="./assets/images/vertical.svg" sizes="any" type="image/svg+xml">';
-        }else{
-            echo '<link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">';
-        }
-    ?>
-
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/scripts/script.js"></script>
 
     <meta http-equiv="content-Type" content="text/html; utf-8">
     <meta name="robots" content="INDEX,FOLLOW">
