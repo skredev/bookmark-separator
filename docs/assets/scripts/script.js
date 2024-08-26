@@ -20,11 +20,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
-window.$_GET = location.search.substr(1).split("&")
-const favicon = document.createElement("link")
-favicon.setAttribute('rel', 'icon')
+window.$_GET = location.search.substr(1).split("&")  // GET parameter
+
 const headEl = document.getElementById("head-el")
 
+const favicon = document.createElement("link") // Creation of the favicon element
+favicon.setAttribute('rel', 'icon')
+
+
+// Setting the favicon according to the requested orientation
 if(window.$_GET[0] === "horizontal"){
     favicon.setAttribute('type', 'image/svg+xml')
     favicon.setAttribute('sizes', 'any')
